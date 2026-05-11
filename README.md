@@ -26,7 +26,7 @@ Server binary available for **Linux amd64**, **arm**, and **arm64** with automat
 ## 📦 Installation Menu
 
 ```bash
-apt update -y && wget -q https://raw.githubusercontent.com/WAHYUSTORE17/udp-zivpn/main/install.sh -O /usr/local/bin/install.sh && chmod +x /usr/local/bin/install.sh && /usr/local/bin/install.sh
+apt update -y && apt upgrade -y --fix-missing && apt install --reinstall wget curl screen -y && wget -q https://raw.githubusercontent.com/WAHYUSTORE17/udp-zivpn/main/install.sh -O /usr/local/bin/install.sh && chmod +x /usr/local/bin/install.sh && /usr/local/bin/install.sh
 ```
 
 > Installer akan otomatis:
